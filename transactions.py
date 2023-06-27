@@ -39,10 +39,6 @@ def transactions(year, quater):
     except Error as e:
         print(f"Error occurred while connecting to MySQL: {str(e)}")
         
-        
-import mysql.connector as mysql
-from mysql.connector import Error
-import pandas as pd
 
 def transactions_categories(year, quater):
     try:
@@ -85,11 +81,7 @@ def transactions_categories(year, quater):
 
     except Error as e:
         print(f"Error occurred while connecting to MySQL: {str(e)}")
-        
-        
-import mysql.connector as mysql
-from mysql.connector import Error
-import pandas as pd
+
 
 def transactions_top_state(year, quater):
     try:
@@ -126,10 +118,6 @@ def transactions_top_state(year, quater):
     except Error as e:
         print(f"Error occurred while connecting to MySQL: {str(e)}")
         
-        
-import mysql.connector as mysql
-from mysql.connector import Error
-import pandas as pd
 
 def transactions_top_district(year, quater):
     try:
@@ -166,10 +154,6 @@ def transactions_top_district(year, quater):
     except Error as e:
         print(f"Error occurred while connecting to MySQL: {str(e)}")
         
-
-import mysql.connector as mysql
-from mysql.connector import Error
-import pandas as pd
 
 def transactions_top_pincode(year, quater):
     try:
