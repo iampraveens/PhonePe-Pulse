@@ -9,7 +9,7 @@ def create_aggregated_transcation():
                             host = 'localhost',
                             database = 'phonepe_pulse',
                             user = 'root',
-                            password = '#Praveenvishnu17'
+                            password = 'yourpassword'
                         )
         
         if connection.is_connected():
@@ -55,7 +55,7 @@ def create_aggregated_user():
                             host = 'localhost',
                             database = 'phonepe_pulse',
                             user = 'root',
-                            password = '#Praveenvishnu17'
+                            password = 'yourpassword'
                         )
         
         if connection.is_connected():
@@ -101,7 +101,7 @@ def create_map_transcation():
                             host = 'localhost',
                             database = 'phonepe_pulse',
                             user = 'root',
-                            password = '#Praveenvishnu17'
+                            password = 'yourpassword'
                         )
         
         if connection.is_connected():
@@ -147,7 +147,7 @@ def create_map_user():
                             host = 'localhost',
                             database = 'phonepe_pulse',
                             user = 'root',
-                            password = '#Praveenvishnu17'
+                            password = 'yourpassword'
                         )
         
         if connection.is_connected():
@@ -194,7 +194,7 @@ def create_top_transcation():
                             host = 'localhost',
                             database = 'phonepe_pulse',
                             user = 'root',
-                            password = '#Praveenvishnu17'
+                            password = 'yourpassword'
                         )
         
         if connection.is_connected():
@@ -240,7 +240,7 @@ def create_top_user():
                             host = 'localhost',
                             database = 'phonepe_pulse',
                             user = 'root',
-                            password = '#Praveenvishnu17'
+                            password = 'yourpassword'
                         )
         
         if connection.is_connected():
@@ -286,7 +286,7 @@ def create_top_transcation_pincode():
                             host = 'localhost',
                             database = 'phonepe_pulse',
                             user = 'root',
-                            password = '#Praveenvishnu17'
+                            password = 'yourpassword'
                         )
         
         if connection.is_connected():
@@ -332,7 +332,7 @@ def create_top_user_pincode():
                             host = 'localhost',
                             database = 'phonepe_pulse',
                             user = 'root',
-                            password = '#Praveenvishnu17'
+                            password = 'yourpassword'
                         )
         
         if connection.is_connected():
