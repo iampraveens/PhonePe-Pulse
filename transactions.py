@@ -5,7 +5,7 @@ import pandas as pd
 def transactions(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -47,7 +47,7 @@ import pandas as pd
 def transactions_categories(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -94,7 +94,7 @@ import pandas as pd
 def transactions_top_state(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -134,7 +134,7 @@ import pandas as pd
 def transactions_top_district(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -174,7 +174,7 @@ import pandas as pd
 def transactions_top_pincode(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
