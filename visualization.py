@@ -6,7 +6,7 @@ import pandas as pd
 def total_transactions(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='#yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -39,7 +39,7 @@ def total_transactions(year, quater):
 def top_state_transactions_amount(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='#yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -74,7 +74,7 @@ def top_state_transactions_amount(year, quater):
 def top_state_transactions_count(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='#yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -110,7 +110,7 @@ def top_state_transactions_count(year, quater):
 def top_district_transactions_amount(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='#yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -145,7 +145,7 @@ def top_district_transactions_amount(year, quater):
 def top_district_transactions_count(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='#yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -180,7 +180,7 @@ def top_district_transactions_count(year, quater):
 def top_pincode_transactions_amount(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='#yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -215,7 +215,7 @@ def top_pincode_transactions_amount(year, quater):
 def top_pincode_transactions_count(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='#yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -251,7 +251,7 @@ def top_pincode_transactions_count(year, quater):
 def user_brand_count(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='#yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -286,7 +286,7 @@ def user_brand_count(year, quater):
 def user_brand_count_state(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='#yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -322,7 +322,7 @@ def user_brand_count_state(year, quater):
 def top_user_state(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='#yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -357,7 +357,7 @@ def top_user_state(year, quater):
 def top_user_district(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='#yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -392,7 +392,7 @@ def top_user_district(year, quater):
 def top_user_pincode(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='#yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
