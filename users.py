@@ -5,7 +5,7 @@ import pandas as pd
 def users(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='#yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -35,16 +35,11 @@ def users(year, quater):
 
     except Error as e:
         print(f"Error occurred while connecting to MySQL: {str(e)}")
-        
-        
-import mysql.connector as mysql
-from mysql.connector import Error
-import pandas as pd
 
 def users_top_state(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='#yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -77,16 +72,11 @@ def users_top_state(year, quater):
 
     except Error as e:
         print(f"Error occurred while connecting to MySQL: {str(e)}")
-        
-    
-import mysql.connector as mysql
-from mysql.connector import Error
-import pandas as pd
 
 def users_top_district(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='#yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
@@ -119,16 +109,11 @@ def users_top_district(year, quater):
 
     except Error as e:
         print(f"Error occurred while connecting to MySQL: {str(e)}")
-        
-        
-import mysql.connector as mysql
-from mysql.connector import Error
-import pandas as pd
 
 def users_top_pincode(year, quater):
     try:
         connection = mysql.connect(user='root', 
-                                   password='#Praveenvishnu17', 
+                                   password='#yourpassword', 
                                    host='localhost', 
                                    database='phonepe_pulse'
                                 )
