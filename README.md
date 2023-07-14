@@ -54,3 +54,13 @@ streamlit run 1_Overview.py
 ```
 5. **The application will open in your browser:**
 Use the provided options and select the desired visualizations to explore and analyze PhonePe's transaction and user data.
+
+## Data
+The data used in this project includes transaction and user data obtained from PhonePe. The data is stored in CSV format and is used for generating visualizations and conducting data exploration. The transactions.py and extraction.py modules provide the necessary functions to process and analyze the data.
+
+## Technologies Used
+- streamlit: Streamlit is used as the web application framework for creating interactive data visualizations.
+- plotly: Plotly is utilized for generating interactive and customizable visualizations.
+- pandas: Pandas library is used for data manipulation and analysis.
+- PIL: PIL (Python Imaging Library) is used for loading and manipulating images in the application.
+- mysql: mysql is used to migrate and store the data.
