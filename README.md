@@ -33,3 +33,5 @@ PhonePe Pulse is a data visualization and exploration tool that provides insight
 ## Installation
 
 **Clone the repository:**
+```bash
+   git clone https://github.com/your-username/phonepe-pulse.git
