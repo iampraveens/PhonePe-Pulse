@@ -21,7 +21,7 @@ PhonePe Pulse is a data visualization and exploration tool that provides insight
 
 - transactions.py: This module contains functions related to transaction data processing. It includes functions like total_transactions(), top_state_transactions_amount(), top_state_transactions_count(), etc., which are used to compute and analyze transaction-related metrics.
 
-- users.py: This file contains code for user-related data processing. It includes functions for analyzing and visualizing user data, such as user_statistics(), user_segmentation(), etc.
+- users.py: This file contains code for user-related data processing. It includes functions for analyzing and visualizing user data, such as users_top_state(), users_top_district(), etc.
 
 - visualization.py: This module contains functions for data visualization. It includes functions like user_brand_count(), user_brand_count_state(), top_user_state(), top_user_district(), etc., which are used to create various charts and visualizations based on user and transaction data.
 
