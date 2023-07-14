@@ -48,7 +48,7 @@ PhonePe Pulse is a data visualization and exploration tool that provides insight
 ```bash
    cd phonepe-pulse
 ```
-***Run the desired script:**
+**Run the desired script:**
 ```bash
    streamlit run 1_Overview.py
 ```
