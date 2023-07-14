@@ -64,3 +64,17 @@ The data used in this project includes transaction and user data obtained from P
 - pandas: Pandas library is used for data manipulation and analysis.
 - PIL: PIL (Python Imaging Library) is used for loading and manipulating images in the application.
 - mysql: mysql is used to migrate and store the data.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please create an issue or submit a pull request.
+
+## License
+
+- This project is `Un-Licensed`
+- Feel free to use, modify, and distribute this project as needed.
+
+## Acknowledgements
+
+- This project utilizes the YouTube Data API to scrape YouTube data. Make sure to comply with YouTube's terms of service and API usage policies.
+- If you have any questions or need assistance, please don't hesitate to [contact me](https://www.linkedin.com/in/iampraveens/).
