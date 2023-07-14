@@ -28,3 +28,8 @@ PhonePe Pulse is a data visualization and exploration tool that provides insight
 - convert_to_csv.py: This file contains code to convert the extracted data to CSV format for easier sharing and analysis.
 
 - phonepe_logo.png: This is an image file representing the logo of PhonePe. It is used as the page icon and in the header of the Streamlit application.
+
+
+## Installation
+
+**Clone the repository:**
