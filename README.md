@@ -32,23 +32,25 @@ PhonePe Pulse is a data visualization and exploration tool that provides insight
 
 ## Installation
 
-**Clone the repository:**
+1. **Clone the repository:**
 ```bash
 git clone https://github.com/iampraveens/PhonePe-Pulse.git
 ```
 
-**Install the required dependencies:**
+2. **Install the required dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Usage
 
-**Navigate to the project directory:**
+3. **Navigate to the project directory:**
 ```bash
 cd phonepe-pulse
 ```
-**Run the desired script:**
+4. **Run the desired script:**
 ```bash
 streamlit run 1_Overview.py
 ```
+5. **The application will open in your browser:**
+Use the provided options and select the desired visualizations to explore and analyze PhonePe's transaction and user data.
